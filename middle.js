@@ -1,4 +1,4 @@
-const assertArraysEqual = function(arr1, arr2) {
+/*const assertArraysEqual = function(arr1, arr2) {
 
   if (eqArrays(arr1, arr2) === false) {
     console.log(`👹️👹️👹️ Assertion Failed`);
@@ -35,4 +35,28 @@ const middle = function(array) {
 };
 //console.log(middle([2, 2, 9, 2, 2]))
 
-assertArraysEqual(middle([2, 2, 9, 2, 2]), [9]);
+assertArraysEqual(middle([2, 2, 9, 2, 2]), [9]);*/
+
+var planetMoons = {
+  mercury: 0,
+  venus: 0,
+  earth: 1,
+  mars: 2,
+  jupiter: 67,
+  saturn: 62,
+  uranus: 27,
+  neptune: 14
+};
+for (var planet in planetMoons) {
+  var numberOfMoons = planetMoons[planet];
+  //console.log(numberOfMoons);
+  console.log(planetMoons[planet]);
+}
+
+/*const person = {fname:"John", lname:"Doe", age:25};
+
+let text = "";
+for (let x in person) {
+  text += person[x] + " ";
+}
+console.log(text);*/
