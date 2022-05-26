@@ -36,6 +36,6 @@ const letterPositions = function(sentence) {
   }
   return results;
 };
-//console.log(letterPositions("hello"));
+console.log(letterPositions("he    llo"));
 
-assertArraysEqual(letterPositions("hello").o, [4]);
+//assertArraysEqual(letterPositions("hello").o, [4]);
