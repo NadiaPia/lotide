@@ -13,7 +13,7 @@ console.log(raisinAlarm(["🍫", "🍫", "🍇", "🍫"]));
 console.log(raisinAlarm(["🍫", "🍇", "🍫", "🍫", "🍇"]));
 console.log(raisinAlarm(["🍫", "🍫", "🍫"]));*/
 
-const myFn = function() {
+/*const myFn = function() {
   console.log("I am function.");
 }
 
@@ -24,5 +24,23 @@ function runner(f) {
   f();
 }
 
-runner(myFn);
+runner(myFn);*/
  
+const greeting = "Hello, world!" 
+const objGreeting = new String("Hello, world!");
+
+//console.log(typeof(greeting))
+//console.log(typeof(objGreeting))
+
+const checkIfNum = 5 
+const objNum = new Number(5);
+
+console.log(typeof(checkIfNum))
+console.log(typeof(objNum))
+
+
+//console.log(greeting == objGreeting); 
+// => true
+
+//console.log(greeting === objGreeting); 
+// => false
