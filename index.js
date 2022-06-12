@@ -7,6 +7,9 @@ const eqObjects = require('./eqObjects');
 const findKey = require('./findKey');
 const findKeyByValue = require('./findKeyByValue');
 const flatten = require('./flatten');
+const takeUntil = require('./takeUntil');
+const without = require('./without');
+const map = require('./map');
 
 
 
@@ -21,7 +24,7 @@ module.exports = {  // I did object shorthands in line 17
 };
 */
 
-module.exports = {head, tail, middle, countLetters, countOnly, eqObjects, findKey, findKeyByValue, flatten}
+module.exports = {head, tail, middle, countLetters, countOnly, eqObjects, findKey, findKeyByValue, flatten, takeUntil, without, map}
 
 /* to run:
 
