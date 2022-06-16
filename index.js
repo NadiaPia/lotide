@@ -10,31 +10,10 @@ const flatten = require('./flatten');
 const takeUntil = require('./takeUntil');
 const without = require('./without');
 const map = require('./map');
+const eqArrays = require('./eqArrays');
+const eqObjects = require('./eqObjects');
 
 
 
+module.exports = {eqObjects, eqArrays, head, tail, middle, countLetters, countOnly, eqObjects, findKey, findKeyByValue, flatten, takeUntil, without, map}
 
-/*
-module.exports = {  // I did object shorthands in line 17
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  countLetters: countLetters,
-  countOnly: countOnly
-};
-*/
-
-module.exports = {head, tail, middle, countLetters, countOnly, eqObjects, findKey, findKeyByValue, flatten, takeUntil, without, map}
-
-/* to run:
-
-const _ = require('./index')
-undefined
-> _
-{
-  head: [Function: head],
-  tail: [Function: tail],
-  middle: [Function: middle],
-  countLetters: [Function: countLetters],
-  countOnly: [Function: countOnly]
-}*/ 
